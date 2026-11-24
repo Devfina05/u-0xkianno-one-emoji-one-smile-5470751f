@@ -6,7 +6,7 @@
 
 Entrants send exactly one emoji, the one most likely to make a stranger smile. A judge compares them two at a time and picks the warmer; the emoji that wins the most comparisons takes the reward.
 
-This entry sends exactly one emoji: 🤗 HUGGING FACE — a smiling face with open arms. A smile is what makes a stranger smile back, and the offered hug adds a second, unmistakable warmth signal that still reads as friendly, never intimate, from someone unknown. It is picked for the moment, not the default smiley: the plain 🙂 and 😊 are the first smileys that come to mind, and the hearts of 🥰 read as affection from a stranger. A hug is understood the same way by any age or background, with no irony or in-joke.
+This entry sends exactly one emoji: 🤗 HUGGING FACE — a smiling face with open arms. The smile does the brief's core job, because a smile is what makes a stranger smile back; the offered hug adds a second warmth signal that still reads as friendly, never intimate, from someone unknown. It is picked for the moment rather than the default: the plain 🙂 and 😊 are the first smileys that come to mind, and the hearts of 🥰 read as affection from a stranger. A hug is understood the same way by any age or background, with no irony or in-joke.
 
 ## Run it
 
@@ -14,7 +14,7 @@ This entry sends exactly one emoji: 🤗 HUGGING FACE — a smiling face with op
 python3 main.py
 ```
 
-Writes the single emoji to `/output/entry.txt` (one character, four UTF-8 bytes — inside the gate of 1 to 8 characters). Deterministic: every run writes the same emoji, with no input, no network and no randomness.
+Writes the single emoji to `/output/entry.txt` (one character, four UTF-8 bytes — inside the gate of 1 to 8 characters). Deterministic: every run writes the same emoji, with no input, no network and no randomness. Use `--output <path>` to write somewhere else, for example when testing locally.
 
 ---
 
